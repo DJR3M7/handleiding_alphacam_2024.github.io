@@ -1,0 +1,78 @@
+.logo{
+    width:250px;
+    height:250px;
+
+
+    margin:auto;
+    border-collapse: collapse;
+    text-align: justify;
+    vertical-align: top;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    gap: 20px; /* Ruimte tussen de buttons */
+}
+#item1{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+}
+
+#item2{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+}
+
+#item3{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+}
+
+#item4, #item5, #item6, #item7, #item8, #item9, #item10, #item11, #item12, #item13, #item14, #item15, #item16, #item17, #item18, #item19{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+}
+
+button{
+    width: 300px;
+    height: 300px;
+    font-size: 15px;
+    vertical-align: bottom;
+
+
+
+}
+
+
+
+body{
+    background-color: deepskyblue;
+}
+
+
+header{
+    text-align: center;
+    font-size: 100px;
+    color: black;
+    font-weight: bold;
+    margin: 50px;
+    text-decoration: underline;
+
+}
+
+table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 90%;
+    margin: auto;
+    height: 9000px;
+    border: 5px white;
+    background-color: white;
+    text-align: justify;
+
+}
